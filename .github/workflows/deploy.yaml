@@ -24,6 +24,8 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+      - name: Create .nojekyll file
+        run: echo > .nojekyll
       - name: Build & Deploy MarkBind site
         uses: MarkBind/markbind-action@v2
         with:
