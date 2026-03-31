@@ -4,13 +4,11 @@
 
 <header sticky>
   <navbar type="dark">
-    <a slot="brand" href="{{baseUrl}}/index.html" title="Home" class="navbar-brand">Your Logo</a>
-    <li><a href="{{baseUrl}}/contents/topic1.html" class="nav-link">Topic 1</a></li>
-    <li><a href="{{baseUrl}}/contents/topic2.html" class="nav-link">Topic 2</a></li>
-    <dropdown header="Topic 3" class="nav-link">
-      <li><a href="{{baseUrl}}/contents/topic3a.html" class="dropdown-item">Topic 3a</a></li>
-      <li><a href="{{baseUrl}}/contents/topic3b.html" class="dropdown-item">Topic 3b</a></li>
-    </dropdown>
+    <a slot="brand" href="{{baseUrl}}/index.html" title="Home" class="navbar-brand"><img src="{{baseUrl}}/images/logo.ico" alt="Logo" class="img-fluid" height="50" width="50" style="margin-right: 10px;"> GitVisor</a>
+    <li><a href="{{baseUrl}}/index.html" class="nav-link">Home</a></li>
+    <li><a href="{{baseUrl}}/contents/guide.html" class="nav-link">Guide</a></li>
+    <li><a href="https://git-visor.github.io/web-app/" class="nav-link">Web App</a></li>
+    <li><a href="https://github.com/git-visor/electron-app/releases/latest" class="nav-link">Desktop App</a></li>
     <li slot="right">
       <form class="navbar-form">
         <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right></searchbar>
@@ -26,12 +24,10 @@
     </div>
     <div class="nav-component slim-scroll">
       <site-nav>
-* [Home :house:]({{ baseUrl }}/index.html)
-* [Topic 1]({{baseUrl}}/contents/topic1.html)
-* [Topic 2]({{baseUrl}}/contents/topic2.html)
-* Topic 3 :expanded:
-  * [Topic 3a]({{baseUrl}}/contents/topic3a.html)
-  * [Topic 3b]({{baseUrl}}/contents/topic3b.html)
+* [Home]({{baseUrl}}/index.html)
+* [Guide]({{baseUrl}}/contents/guide.html)
+* [Web App](https://git-visor.github.io/web-app/)
+* [Desktop App](https://github.com/git-visor/electron-app)
       </site-nav>
     </div>
   </nav>

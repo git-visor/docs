@@ -4,6 +4,6 @@
 
 <br>
 
-# Topic 1
+# Guide
 
 > This is a placeholder page - more content to be added.
