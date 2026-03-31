@@ -1,0 +1,18 @@
+# .github/workflows/deploy.yml
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build & Deploy MarkBind site
+        uses: MarkBind/markbind-action@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          rootDirectory: ''
+          baseUrl: '/docs'
+          version: '^5.5.2'
