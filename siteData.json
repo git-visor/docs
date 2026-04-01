@@ -8,44 +8,54 @@
       "headingKeywords": {}
     },
     {
-      "src": "contents/topic1.md",
-      "title": "Topic 1",
+      "src": "README.md",
       "headings": {
-        "topic-1": "Topic 1"
+        "git-visor": "Git Visor"
       },
       "headingKeywords": {}
     },
     {
-      "src": "contents/topic2.md",
-      "title": "Topic 2",
+      "src": "contents/graph-navigation.md",
+      "title": "Graph Navigation",
       "headings": {
-        "topic-2": "Topic 2"
+        "graph-navigation-guide": "Graph Navigation Guide",
+        "git-objects": "Git Objects",
+        "graph-layout": "Graph Layout",
+        "object-details": "Object Details",
+        "commits": "  Commits",
+        "trees": "  Trees",
+        "blobs": "  Blobs"
       },
       "headingKeywords": {}
     },
     {
-      "src": "contents/topic3a.md",
-      "title": "Topic 3a",
+      "src": "contents/guide-desktop.md",
+      "title": "Desktop App Guide",
       "headings": {
-        "topic-3a": "Topic 3a"
+        "installation-instructions": "Installation Instructions",
+        "windows": "Windows",
+        "macos": "macOS",
+        "how-to-use": "How to Use",
+        "navigating-the-graph": "Navigating the Graph"
       },
       "headingKeywords": {}
     },
     {
-      "src": "contents/topic3b.md",
-      "title": "Topic 3b",
+      "src": "contents/guide-web.md",
+      "title": "Web App Guide",
       "headings": {
-        "topic-3b": "Topic 3b"
+        "how-to-use": "How to Use",
+        "navigating-the-graph": "Navigating the Graph"
       },
       "headingKeywords": {}
     },
     {
       "src": "index.md",
-      "title": "Home Page",
+      "title": "Git Visor Documentation",
       "headings": {
-        "what-just-happened": "What just happened?",
-        "navigating-this-site": "Navigating this site",
-        "guide-to-markbind": "Guide to MarkBind"
+        "git-visor": "Git Visor",
+        "about-git-visor": "About Git Visor",
+        "learn-more": "Learn More"
       },
       "headingKeywords": {}
     }
