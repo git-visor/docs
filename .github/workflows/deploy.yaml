@@ -31,5 +31,5 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           rootDirectory: '.'
-          baseUrl: '/docs'
+          baseUrl: ''
           version: '^5.5.2'
