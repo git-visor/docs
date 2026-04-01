@@ -17,7 +17,7 @@
 
 ## About Git Visor
 
-Git Visor is a web application and Electron app built with React and TypeScript. It provides an intuitive interface to visualize the internal state of a Git repository, making it easier to understand and manage your version control workflow.
+Git Visor is a web application desktop app built with React and TypeScript. It provides an intuitive interface to visualize the internal state of a Git repository, making it easier to understand and manage your version control workflow.
 
 <box type="info">
 
@@ -31,5 +31,5 @@ Git Visor is designed for developers who want to gain deeper insights into their
 
 For more information about Git Visor, visit the following resources:
 
-- To download the latest release of the electron app, visit the repository at [Git Visor Electron App](https://github.com/git-visor/electron-app)
-- To access the web application, visit [Git Visor Web App](https://github.com/git-visor/electron-app/releases/latest)
+- To download the latest release of the desktop app, visit the repository at [Git Visor Desktop App](https://github.com/git-visor/desktop-app/releases/latest)
+- To access the web application, visit [Git Visor Web App](https://git-visor.github.io/web-app/)
