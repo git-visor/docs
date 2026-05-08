@@ -14,6 +14,21 @@
             "date": 1775007701121,
             "name": "_markbind\\logs\\markbind-2026-04-01.log",
             "hash": "a55d06e5d7821e1d4b13e8056171538a"
+        },
+        {
+            "date": 1775356272714,
+            "name": "_markbind\\logs\\markbind-2026-04-05.log",
+            "hash": "ebb9324fc04d232cb27271b86bd23536"
+        },
+        {
+            "date": 1775527245143,
+            "name": "_markbind\\logs\\markbind-2026-04-07.log",
+            "hash": "ba6ab387c32e22dfd8850a973208ba73"
+        },
+        {
+            "date": 1778223580130,
+            "name": "_markbind\\logs\\markbind-2026-05-08.log",
+            "hash": "2dcfd294552b2b7841de886eab381c67"
         }
     ]
 }
