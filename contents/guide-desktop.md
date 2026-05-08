@@ -13,9 +13,14 @@
 ## Windows
 1. Download the .exe file from the [Git Visor Desktop App](https://github.com/git-visor/desktop-app/releases/latest)
 2. Run the .exe file
-<box type="warning">
-If you encounter a warning about the app being from an untrusted developer, click "More info" and then "Run anyway" to proceed with the installation.
-</box>
+<panel header="Windows Defender is preventing me from running the app" type="warning">
+If you encounter a warning about the app being from an untrusted developer, click "More info"
+<img src="{{baseUrl}}/images/desktop-windows-warning.png" alt="Windows Defender Warning" class="img-fluid my-3" width="600" height="400"><br/>
+Then click "Run anyway" to open the app.
+<img src="{{baseUrl}}/images/desktop-windows-warning2.png" alt="Windows Defender More Info" class="img-fluid my-3" width="600" height="400"><br/>
+If "More info" is not available, you can also try right-clicking on the .exe file, selecting "Properties", and then clicking "Unblock" at the bottom of the Properties window before running the app again.
+<img src="{{baseUrl}}/images/desktop-windows-warning3.png" alt="Windows Defender Unblock" class="img-fluid my-3" width="600" height="400">
+</panel><br/>
 3. Wait for the installation to complete, and the app will launch automatically.
 
 <br><br>
